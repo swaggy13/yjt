@@ -1,4 +1,5 @@
-
+@charset "UTF-8";
+/*css 初始化 */
 html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
     margin: 0;
     padding: 0;
@@ -31,18 +32,18 @@ select, input, textarea {
 }
 
 textarea {
-    resize: none;  
+    resize: none;  /*防止多行文本框拖动*/
 }
 
 
 img {
     border: 0;
-    vertical-align: middle; 
+    vertical-align: middle;  /*  去掉图片低测默认的3像素空白缝隙*/
 }
 
 
 table {
-    border-collapse: collapse;			
+    border-collapse: collapse;			/*合并外边线*/
 }
 
 
@@ -89,8 +90,9 @@ s, i, em {
     color: #C81623 !important;
 }
 
-
+/*公共类*/
 .w {
+    /*版心 提取 */
     width: 1210px;
     margin: 0 auto;
 }
@@ -120,6 +122,7 @@ s, i, em {
 } 
 
 
+    /*site-nav部分start*/
     .site-nav {
         height: 30px;
         line-height: 30px; 
@@ -183,6 +186,9 @@ s, i, em {
         background: url( "../images/tel.png" ) no-repeat;
     }
     
+    /*site-nav部分end*/
+
+    /*topbanner部分start*/
     .tb {
         position: relative;
     }
@@ -205,6 +211,9 @@ s, i, em {
     }
 
    
+    /*topbanner部分end*/
+
+    /*search部分start*/
     .search-logo {
         float: left;
         width: 362px;   /*w362*/
@@ -278,7 +287,7 @@ s, i, em {
         right: 10px;
         color: #999px;
         font: 13px/34px "SimSun";
-       
+        /*font-family: "SimSun", "宋体";*/
     }
 
     .icon3 {
@@ -306,8 +315,10 @@ s, i, em {
         margin-right: 8px;
     }
 
-   
+    /*search部分end*/
 
+
+    /*footer部分start*/
     .footer-top-slogen {
         width: 100%;
         height: 54px;
@@ -391,7 +402,9 @@ s, i, em {
     .footer-bottom-img a {
         margin: 0 5px;
     }
-    
+    /*footer部分end*/
+
+    /*shortcut-nav部分start*/
     .shortcut-nav {
         /*position: relative;*/
         height: 44px;
@@ -468,7 +481,7 @@ s, i, em {
     }
 
     .shortcut-nav-items a {
-        display: inline-block;
+        display: inline-block; /*inline elements can not be set width*/
         height: 44px;
         padding: 0 20px;
         color: #333;
@@ -489,3 +502,9 @@ s, i, em {
 
 
 
+
+
+
+
+
+       /*shortcut-nav部分end*/

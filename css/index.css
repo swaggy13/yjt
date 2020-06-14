@@ -1,4 +1,6 @@
+@charset "UTF-8";
 
+	/*main部分start*/
 	.main-slider {
 		float: left;
 		position: relative;
@@ -102,4 +104,11 @@
 		font-weight: 700;
 		margin-right: 5px;
 	}
-	
+	/*main部分end*/
+
+	/*shortcut-nav部分start*/
+	/*shortcut-nav部分end*/
+
+	/*shortcut-nav部分start*/
+	/*shortcut-nav部分end*/
+
